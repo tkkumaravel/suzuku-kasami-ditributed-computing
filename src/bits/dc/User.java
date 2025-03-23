@@ -31,6 +31,7 @@ public class User {
                 // Read and print the server response
                 String serverResponse = dataInputStream.readUTF();
                 System.out.println("Server response: " + serverResponse);
+                System.out.println("Enter the file name (type 'exit' to quit): ");
 
             }
         } catch (IOException e) {
